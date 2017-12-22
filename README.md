@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#488](https://github.com/w3c/ttml2/pull/488)
 
 
- Commit: [7949f047b3d8393bbf8821c59d830f3060df1af1](https://github.com/w3c/ttml2/commit/7949f047b3d8393bbf8821c59d830f3060df1af1)
+ Commit: [c792e09dfb899408a7773f8328908baef2da9c3f](https://github.com/w3c/ttml2/commit/c792e09dfb899408a7773f8328908baef2da9c3f)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0474-uri-references-build/index.html
 
