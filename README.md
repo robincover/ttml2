@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#470](https://github.com/w3c/ttml2/pull/470)
 
 
- Commit: [e571067b6d73aacc89f721c1eb87a90942a74ab8](https://github.com/w3c/ttml2/commit/e571067b6d73aacc89f721c1eb87a90942a74ab8)
+ Commit: [60ba931a1ce3421634cebb4366e0d24bc2f549dd](https://github.com/w3c/ttml2/commit/60ba931a1ce3421634cebb4366e0d24bc2f549dd)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0406-style-semantics-build/index.html
 
