@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#506](https://github.com/w3c/ttml2/pull/506)
 
 
- Commit: [bbfbd599b5cb066b6df9b8b96cc32f62f6584e56](https://github.com/w3c/ttml2/commit/bbfbd599b5cb066b6df9b8b96cc32f62f6584e56)
+ Commit: [5b42d4cded7a156b0e223159d89665ea0b542611](https://github.com/w3c/ttml2/commit/5b42d4cded7a156b0e223159d89665ea0b542611)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0490-add-ttm-alt-build/index.html
 
