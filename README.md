@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#508](https://github.com/w3c/ttml2/pull/508)
 
 
- Commit: [e4d5e77d2d96506d6cd42986060fafa315f8887c](https://github.com/w3c/ttml2/commit/e4d5e77d2d96506d6cd42986060fafa315f8887c)
+ Commit: [69867ff9f4632a249f2269fd56e4e782edec73f3](https://github.com/w3c/ttml2/commit/69867ff9f4632a249f2269fd56e4e782edec73f3)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0491-metadata-version-2-build/index.html
 
