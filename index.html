@@ -338,13 +338,13 @@ background-color: #ffff33;
 border: 2px solid black;
 width: 100%;
 }
-    </style><link rel="stylesheet" type="text/css" href="https://www.w3.org/StyleSheets/TR/2016/W3C-ED"></head><body>Commit: f9611b8 Merge 00b25bcbddc92c65119ffdb7103c91bdbdf3b679 into ee44f5676b3ba3d7c1ce9262fc3d425ced77bcf6<div id="revisions"></div><div class="head">
+    </style><link rel="stylesheet" type="text/css" href="https://www.w3.org/StyleSheets/TR/2016/W3C-ED"></head><body>Commit: 340cc8c Merge c4fb1db5129e76ae518dd77332f2b2c45f934535 into ee44f5676b3ba3d7c1ce9262fc3d425ced77bcf6<div id="revisions"></div><div class="head">
 <h1><a id="title"></a>Timed Text Markup Language 2 (TTML2)</h1>
-<h2><a id="w3c-doctype"></a>W3C Editors' Draft 30 December 2017</h2><dl><dt>This version:</dt><dd>
+<h2><a id="w3c-doctype"></a>W3C Editors' Draft 03 January 2018</h2><dl><dt>This version:</dt><dd>
 <a href="ttml2.html">ttml2.html</a>
 </dd><dt>Latest editor's draft:</dt><dd><a href="https://w3c.github.io/ttml2/index.html">https://w3c.github.io/ttml2/index.html</a></dd><dt>Latest version:</dt><dd><a href="https://www.w3.org/TR/ttml2/">https://www.w3.org/TR/ttml2/</a></dd><dt>Latest recommendation:</dt><dd><a href="https://www.w3.org/TR/ttml1/">https://www.w3.org/TR/ttml1/</a></dd><dt>Previous version:</dt><dd>
 <a href="https://www.w3.org/TR/2017/WD-ttml2-20170106/">https://www.w3.org/TR/2017/WD-ttml2-20170106/</a>
-</dd><dt>Editor:</dt><dd data-editor-id="34030">Glenn Adams, Skynav</dd><dt>Contributing Authors:</dt><dd>Mike Dolan, Invited Expert</dd><dd>Sean Hayes, Microsoft</dd><dd>Frans de Jong, European Broadcasting Union</dd><dd>Dae Kim, Netflix</dd><dd>Pierre-Anthony Lemieux, MovieLabs</dd><dd>Nigel Megitt, British Broadcasting Corporation</dd><dd>Dave Singer, Apple Computer</dd><dd>Jerry Smith, Microsoft</dd><dd>Andreas Tai, Invited Expert</dd></dl><p class="copyright"><a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>&nbsp;©&nbsp;2017&nbsp;<a href="http://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>). W3C <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a> rules apply.</p><hr></div><div>
+</dd><dt>Editor:</dt><dd data-editor-id="34030">Glenn Adams, Skynav</dd><dt>Contributing Authors:</dt><dd>Mike Dolan, Invited Expert</dd><dd>Sean Hayes, Microsoft</dd><dd>Frans de Jong, European Broadcasting Union</dd><dd>Dae Kim, Netflix</dd><dd>Pierre-Anthony Lemieux, MovieLabs</dd><dd>Nigel Megitt, British Broadcasting Corporation</dd><dd>Dave Singer, Apple Computer</dd><dd>Jerry Smith, Microsoft</dd><dd>Andreas Tai, Invited Expert</dd></dl><p class="copyright"><a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>&nbsp;©&nbsp;2018&nbsp;<a href="http://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>). W3C <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a> rules apply.</p><hr></div><div>
 <h2><a id="abstract"></a>Abstract</h2><p>This document specifies the Timed Text Markup Language (TTML), Version 2, also known as TTML2,
 in terms of a vocabulary and semantics thereof.</p><p>The Timed Text Markup Language is a content type that represents
 timed text media for the purpose of interchange among authoring
@@ -800,7 +800,7 @@ the applicable writing mode.</p></dd><dt class="label"><a id="terms-root-contain
 about which see also <a href="#root-container-region-semantics"><b>H Root Container Region Semantics</b></a>.</p></dd><dt class="label"><a id="terms-root-temporal-extent"></a>[root temporal extent]</dt><dd><p>The temporal extent (interval) defined by the temporal beginning and ending of a <a href="#terms-document-instance">document instance</a>
 in relationship with some external application or presentation context.</p></dd><dt class="label"><a id="terms-simple-data-embedding"></a>[simple data embedding]</dt><dd><p>A <a href="#embedded-content-vocabulary-data"><code>data</code></a> element the directly embeds a representation of the actual bytes
 of an <a href="#terms-embedded-data-resource">embedded data resource</a> without making use of a
-child <a href="#embedded-content-vocabulary-chunk"><code>chunk</code></a> element.</p></dd><dt class="label"><a id="terms-smpte-time-code"></a>[smpte time code]</dt><dd><p>A time code whose format and semantics are established by <a href="#smpte12">[SMPTE ST12-1]</a>,
+child <a href="#embedded-content-vocabulary-chunk"><code>chunk</code></a> element.</p></dd><dt class="label"><a id="terms-smpte-time-code"></a>[smpte time code]</dt><dd><p>A time code whose format and semantics are established by <a href="#smpte12">[SMPTE ST 12-1]</a>,
 which may be embedded into or otherwise associated with media content, such
 as a broadcast audio/video stream.</p></dd><dt class="label"><a id="terms-sourced-data-embedding"></a>[sourced data embedding]</dt><dd><p>A <a href="#embedded-content-vocabulary-data"><code>data</code></a> element that indirectly references the content
 of an <a href="#terms-embedded-data-resource">embedded data resource</a> by making use of a
@@ -2331,7 +2331,7 @@ the <a href="#terms-root-container-region">root container region</a> is determin
 when specified on the <code>tt</code> element.</p></div><div class="div3">
 <h4><a id="parameter-attribute-dropMode"></a>7.2.5 ttp:dropMode</h4><p>The <code>ttp:dropMode</code> attribute is used to specify
 constraints on the interpretation and use of frame counts
-that correspond with <a href="#smpte12">[SMPTE ST12-1]</a> time coordinates when operating
+that correspond with <a href="#smpte12">[SMPTE ST 12-1]</a> time coordinates when operating
 with time base of <code>smpte</code> as defined by
 <a href="#parameter-attribute-timeBase"><b>7.2.14 ttp:timeBase</b></a>.</p><p>If specified, the value of this attribute must adhere to the following syntax:</p><a id="parameter-attribute-dropMode-syntax"></a><table class="syntax"><caption>Syntax Representation – ttp:dropMode</caption><tbody><tr><td>
 <div class="exampleInner"><pre>
@@ -2420,7 +2420,7 @@ numerator | denominator
 </td></tr></tbody></table><p>A frame rate multiplier is used when the desired frame rate cannot
 be expressed as an integral number of frames per second.</p><p>If not specified, the frame rate multiplier must be considered to be equal to one (1:1).
 Both numerator and denominator must be non-zero.</p><p>A <code>ttp:frameRateMultiplier</code> attribute is considered to be significant only
-when specified on the <code>tt</code> element.</p><div class="note"><p class="prefix"><b>Note:</b></p><p>The frame rate multiplier used for synchronizing with NTSC <a href="#smpte170m">[SMPTE 170M]</a>
+when specified on the <code>tt</code> element.</p><div class="note"><p class="prefix"><b>Note:</b></p><p>The frame rate multiplier used for synchronizing with NTSC <a href="#smpte170m">[SMPTE ST 170]</a>
 formatted video objects at 30 frames per second is nominally
 1000:1001. The nominal frame rate of NTSC video is defined as the chrominance
 sub-carrier frequency of 3,579,545.45…Hz (= 5.0MHz × 63/88) times the ratio 2/455 divided by
@@ -2431,7 +2431,7 @@ usage and video format standards.</p></div><div class="note"><p class="prefix"><
 formatted video objects at 25 frames per second is nominally 1:1.</p></div></div><div class="div3">
 <h4><a id="parameter-attribute-markerMode"></a>7.2.8 ttp:markerMode</h4><p>The <code>ttp:markerMode</code> attribute is used to specify
 constraints on the interpretation and use of time expressions
-that correspond with <a href="#smpte12">[SMPTE ST12-1]</a> time coordinates when operating
+that correspond with <a href="#smpte12">[SMPTE ST 12-1]</a> time coordinates when operating
 with time base of <code>smpte</code> as defined by
 <a href="#parameter-attribute-timeBase"><b>7.2.14 ttp:timeBase</b></a>.</p><p>If specified, the value of this attribute must adhere to the following syntax:</p><a id="parameter-attribute-markerMode-syntax"></a><table class="syntax"><caption>Syntax Representation – ttp:markerMode</caption><tbody><tr><td>
 <div class="exampleInner"><pre>
@@ -2441,7 +2441,7 @@ ttp:markerMode
 </pre></div>
 </td></tr></tbody></table><p>If the time base, defined by <a href="#parameter-attribute-timeBase"><b>7.2.14 ttp:timeBase</b></a>, is designated as
 <code>smpte</code>, then this parameter applies as follows: if the
-parameter's value is <code>continuous</code>, then <a href="#smpte12">[SMPTE ST12-1]</a> time coordinates
+parameter's value is <code>continuous</code>, then <a href="#smpte12">[SMPTE ST 12-1]</a> time coordinates
 may be assumed to be linear and either monotonically increasing or
 decreasing; however, if <code>discontinuous</code>, then any assumption
 must not be made regarding linearity or monotonicity of time coordinates.</p><p>If not specified, the value of this parameter must be considered
@@ -2460,7 +2460,7 @@ expressions are interpreted as further described in
 <code>continuous</code> marker mode, there is an implied time coordinate
 space, the <a href="#terms-synthetic-smpte-document-syncbase">synthetic smpte document syncbase</a>,
 defined by the monotonically increasing (or decreasing) 
-<a href="#smpte12">[SMPTE ST12-1]</a> time coordinates, while taking into account
+<a href="#smpte12">[SMPTE ST 12-1]</a> time coordinates, while taking into account
 the computed frame rate and drop mode. All time expressions are interpreted
 in relationship to this time coordinate space based upon
 <a href="#terms-smpte-time-code">smpte time code</a> synchronization events (markers),
@@ -2469,7 +2469,7 @@ regarding time coordinate monotonicity and resynchronization in
 the presence of dropped frames.</p><p>Use of <code>continuous</code> marker mode with the <code>smpte</code>
 time base is different from using the <code>media</code> time base
 because (1) the semantics of the <code>ttp:dropMode</code> parameter
-apply to the former, but not the latter, and (2) <a href="#smpte12">[SMPTE ST12-1]</a>
+apply to the former, but not the latter, and (2) <a href="#smpte12">[SMPTE ST 12-1]</a>
 time coordinates may be applied monotonically to media which has been
 subjected to dilation in time, constriction in time, or reversal in
 time.</p></div><p>If a value of <code>discontinuous</code> applies, then time
@@ -2622,13 +2622,13 @@ presentation of associated Timed Text content will be similarly
 paused, accelerated, or decelerated, respectively. The means for
 controlling an external
 media time base is outside the scope of this specification.</p></div><p>If the time base is designated as <code>smpte</code>,
-then a time expression denotes a <a href="#smpte12">[SMPTE ST12-1]</a> time
+then a time expression denotes a <a href="#smpte12">[SMPTE ST 12-1]</a> time
 coordinate with which the content of a <a href="#terms-document-instance">document instance</a> is to
 be synchronized.  In this case, the value of the <code>ttp:markerMode</code> 
 and <code>ttp:dropMode</code> parameters apply, as defined by <a href="#parameter-attribute-markerMode"><b>7.2.8 ttp:markerMode</b></a> and <a href="#parameter-attribute-dropMode"><b>7.2.5 ttp:dropMode</b></a>, respectively.</p><div class="note"><p class="prefix"><b>Note:</b></p><p>When the time base is designated as <code>smpte</code>,
 every time expression denotes a media marker value akin to that
 defined by <a href="#smil3">[SMIL 3.0]</a>, § 5.4.3, except instead
-of using an opaque marker name, a structured <a href="#smpte12">[SMPTE ST12-1]</a>
+of using an opaque marker name, a structured <a href="#smpte12">[SMPTE ST 12-1]</a>
 time coordinate serves as the marker name.</p></div><p>If the time base is designated as <code>clock</code>, then the time
 expression denotes a coordinate in some real-world time line as
 established by some real-time clock, such as the local wall-clock time
@@ -2676,7 +2676,7 @@ The origin of the <a href="#terms-root-container-region">root container region</
 that the <a href="#terms-document-processing-context">document processing context</a> determine that:</p><ul><li><p>the origin of the <a href="#terms-root-container-region">root container region</a> be established so that this region is centered in the
 <a href="#terms-related-media-object-region">related media object region</a>.</p></li></ul></div><div class="note"><p class="prefix"><b>Note:</b></p><p>If an author desires to signal the (storage or image) aspect ratio of the <a href="#terms-root-container-region">root container region</a>
 without specifying its resolution, then this may be accomplished by using metadata specified
-in an external namespace, such as <code>m708:aspectRatio</code> as defined in <a href="#smpte2052-11">[SMPTE RP 2052-11]</a>, §5.4.4.
+in an external namespace, such as <code>m708:aspectRatio</code> as defined in <a href="#smpte2052-11">[SMPTE RP 2052-11:2013]</a>, §5.4.4.
 This would permit, for example, the interchange of information that reflects
 the semantics of <a href="#cta708e">[CTA-708-E]</a> , §4.5 “Caption Service Metadata”, “ASPECT RATIO”.</p></div><p>Except for the <code>tts:extent</code> attribute described above, an attribute in the TT Style Namespace should not
 be specified on the <code>tt</code> element unless it denotes an inheritable style property, in which case such inheritable style property is available
@@ -12023,7 +12023,7 @@ W3C Recommendation, 31 May 2001.
 Multimedia Integration Language (SMIL 3.0)</cite></a>,
 W3C Recommendation, 1 December 2008. (See
 <a href="http://www.w3.org/TR/2008/REC-SMIL3-20081201/">http://www.w3.org/TR/2008/REC-SMIL3-20081201/</a>.)
-</dd><dt class="label"><a id="smpte12"></a>SMPTE ST12-1</dt><dd>SMPTE ST12-1:2014,
+</dd><dt class="label"><a id="smpte12"></a>SMPTE ST 12-1</dt><dd>SMPTE ST 12-1:2014,
 <a href="http://ieeexplore.ieee.org/document/7291029/"><cite>Time and Control Code</cite></a>, SMPTE Standard.
 </dd><dt class="label"><a id="srgb"></a>SRGB</dt><dd>IEC 61966-2-1:1999/AMD1:2003,
 <a href="https://webstore.iec.ch/publication/6168"><cite>Multimedia
@@ -12196,14 +12196,14 @@ August 2005. (See
 W3C WG Note, 5 February 2013. (See
 <a href="http://www.w3.org/TR/2013/NOTE-ttml10-sdp-us-20130205/">http://www.w3.org/TR/2013/NOTE-ttml10-sdp-us-20130205/</a>.)
 </dd><dt class="label"><a id="smiththreed"></a>SMITH</dt><dd>Smith, Michael D.; Malia, Jason, <a href="http://ieeexplore.ieee.org/document/7269419/"><cite>Controlling Miniaturization in Stereoscopic 3D Imagery</cite></a>, in Motion Imaging Journal, SMPTE , vol.124, no.3, pp.50-58, April 2015 doi: 10.5594/m001513.
-</dd><dt class="label"><a id="smpte170m"></a>SMPTE 170M</dt><dd>ANSI/SMPTE 170M, 
-<a href="http://www.smpte.org/"><cite>Television – Composite Analog Video
-Signal – NTSC for Studio Applications</cite></a>, SMPTE Standard.
-</dd><dt class="label"><a id="smpte2052-11"></a>SMPTE RP 2052-11</dt><dd>SMPTE RP 2052-11,
-<a href="http://www.smpte.org/"><cite>Conversion from CTA-708 Caption Data to SMPTE-TT</cite></a>,
+</dd><dt class="label"><a id="smpte2052-11"></a>SMPTE RP 2052-11:2013</dt><dd>SMPTE RP 2052-11:2013,
+<a href="http://ieeexplore.ieee.org/document/7290363/"><cite>Conversion from CTA-708 Caption Data to SMPTE-TT</cite></a>,
 SMPTE Recommended Practice.
-</dd><dt class="label"><a id="smpte2052-1"></a>SMPTE ST 2052-1</dt><dd>SMPTE ST 2052-1,
-<a href="http://www.smpte.org/"><cite>Timed Text Format (SMPTE-TT)</cite></a>,
+</dd><dt class="label"><a id="smpte170m"></a>SMPTE ST 170</dt><dd>SMPTE ST 170:2004, 
+<a href="http://ieeexplore.ieee.org/document/7291416/"><cite>Television – Composite Analog Video
+Signal – NTSC for Studio Applications</cite></a>, SMPTE Standard.
+</dd><dt class="label"><a id="smpte2052-1"></a>SMPTE ST 2052-1</dt><dd>SMPTE ST 2052-1:2013,
+<a href="http://ieeexplore.ieee.org/document/7291854/"><cite>Timed Text Format (SMPTE-TT)</cite></a>,
 SMPTE Standard.
 </dd><dt class="label"><a id="ssml"></a>SSML 1.0</dt><dd>Daniel Burnett, et al.,
 <a href="http://www.w3.org/TR/2004/REC-speech-synthesis-20040907/"><cite>Speech Synthesis Markup Language
