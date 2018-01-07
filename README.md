@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#532](https://github.com/w3c/ttml2/pull/532)
 
 
- Commit: [2dc6cf50b40c6537dbaef3d0ccaec787585f1196](https://github.com/w3c/ttml2/commit/2dc6cf50b40c6537dbaef3d0ccaec787585f1196)
+ Commit: [9a82ee005aa610f6dba9e75063947a347018254e](https://github.com/w3c/ttml2/commit/9a82ee005aa610f6dba9e75063947a347018254e)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0531-typo-build/index.html
 
