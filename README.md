@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#521](https://github.com/w3c/ttml2/pull/521)
 
 
- Commit: [37a2044d72aab70175ea0edc56727ef9f3f687a6](https://github.com/w3c/ttml2/commit/37a2044d72aab70175ea0edc56727ef9f3f687a6)
+ Commit: [0c6d7df643ba0ff1c90050c857fe71b6aac34c5f](https://github.com/w3c/ttml2/commit/0c6d7df643ba0ff1c90050c857fe71b6aac34c5f)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0458-backward-compatibility-build/index.html
 
