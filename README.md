@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#522](https://github.com/w3c/ttml2/pull/522)
 
 
- Commit: [c4fb1db5129e76ae518dd77332f2b2c45f934535](https://github.com/w3c/ttml2/commit/c4fb1db5129e76ae518dd77332f2b2c45f934535)
+ Commit: [b7f67079ffe8c1b27e763ec498cebe2874ef927d](https://github.com/w3c/ttml2/commit/b7f67079ffe8c1b27e763ec498cebe2874ef927d)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0457-update-references-build/index.html
 
