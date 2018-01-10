@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#511](https://github.com/w3c/ttml2/pull/511)
 
 
- Commit: [073c492d314aaa2c43e759afd904fd5f7598141f](https://github.com/w3c/ttml2/commit/073c492d314aaa2c43e759afd904fd5f7598141f)
+ Commit: [146b1e156651e2f7355d1c205eef7f47b6d7ffb6](https://github.com/w3c/ttml2/commit/146b1e156651e2f7355d1c205eef7f47b6d7ffb6)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0484-isd-indefinite-end-build/index.html
 
