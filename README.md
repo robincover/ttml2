@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#530](https://github.com/w3c/ttml2/pull/530)
 
 
- Commit: [8df3adf767adc2443a813a2e9508e40c94eb4e4c](https://github.com/w3c/ttml2/commit/8df3adf767adc2443a813a2e9508e40c94eb4e4c)
+ Commit: [fb4b70db139598e6208d78919f3e081cee7b8a7a](https://github.com/w3c/ttml2/commit/fb4b70db139598e6208d78919f3e081cee7b8a7a)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0432-content-profiles-any-build/index.html
 
