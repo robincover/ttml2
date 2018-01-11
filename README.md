@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#517](https://github.com/w3c/ttml2/pull/517)
 
 
- Commit: [7699190d5e80a76f112997ea2f94b045d78621e2](https://github.com/w3c/ttml2/commit/7699190d5e80a76f112997ea2f94b045d78621e2)
+ Commit: [3e91b33f4dedba58bcd48ca264cb65a52c13c270](https://github.com/w3c/ttml2/commit/3e91b33f4dedba58bcd48ca264cb65a52c13c270)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0478-streaming-build/index.html
 
