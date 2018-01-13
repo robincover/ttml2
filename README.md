@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#518](https://github.com/w3c/ttml2/pull/518)
 
 
- Commit: [749d3683c5d6cdffa7da042dea3f8e03529d3e99](https://github.com/w3c/ttml2/commit/749d3683c5d6cdffa7da042dea3f8e03529d3e99)
+ Commit: [9bb42c448bf5b8a6e9ba858a83bd1e5350709a7e](https://github.com/w3c/ttml2/commit/9bb42c448bf5b8a6e9ba858a83bd1e5350709a7e)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0473-profile-version-2-build/index.html
 
