@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#524](https://github.com/w3c/ttml2/pull/524)
 
 
- Commit: [5bbabd8a939cb4112aae2226eb9b0e20f96120de](https://github.com/w3c/ttml2/commit/5bbabd8a939cb4112aae2226eb9b0e20f96120de)
+ Commit: [421198c85ebcc39b2f5420e0e0fcb5d5baea04b5](https://github.com/w3c/ttml2/commit/421198c85ebcc39b2f5420e0e0fcb5d5baea04b5)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0455-background-color-build/index.html
 
