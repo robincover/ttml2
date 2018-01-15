@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#562](https://github.com/w3c/ttml2/pull/562)
 
 
- Commit: [7eced4f11103200bb3d23645778f6caab3c5637d](https://github.com/w3c/ttml2/commit/7eced4f11103200bb3d23645778f6caab3c5637d)
+ Commit: [26e34bceb07c4a7f64ff5ecfb053653c967bc5e4](https://github.com/w3c/ttml2/commit/26e34bceb07c4a7f64ff5ecfb053653c967bc5e4)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0264-direction-writingMode-build/index.html
 
