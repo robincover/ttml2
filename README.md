@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#558](https://github.com/w3c/ttml2/pull/558)
 
 
- Commit: [e1583b596d66bfef4a0d4ba58073261eb0f3490a](https://github.com/w3c/ttml2/commit/e1583b596d66bfef4a0d4ba58073261eb0f3490a)
+ Commit: [3b867dc0766461c8d1afaa7d547ef38b9a2ac8a3](https://github.com/w3c/ttml2/commit/3b867dc0766461c8d1afaa7d547ef38b9a2ac8a3)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0428-remove-active-area-build/index.html
 
