@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#559](https://github.com/w3c/ttml2/pull/559)
 
 
- Commit: [2c655b9875502022a9fb53ff18aecc689e386223](https://github.com/w3c/ttml2/commit/2c655b9875502022a9fb53ff18aecc689e386223)
+ Commit: [9467f1b7b7f39c93ed6b37642d492af33ea14ce7](https://github.com/w3c/ttml2/commit/9467f1b7b7f39c93ed6b37642d492af33ea14ce7)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0437-change-summary-build/index.html
 
