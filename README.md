@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#534](https://github.com/w3c/ttml2/pull/534)
 
 
- Commit: [e73c89e0a1c3b7fa600ff1733741906769b965b3](https://github.com/w3c/ttml2/commit/e73c89e0a1c3b7fa600ff1733741906769b965b3)
+ Commit: [0bab708166653f06fbe5f91725136d630d037b51](https://github.com/w3c/ttml2/commit/0bab708166653f06fbe5f91725136d630d037b51)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0360-related-media-object-region-build/index.html
 
