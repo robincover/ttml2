@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#526](https://github.com/w3c/ttml2/pull/526)
 
 
- Commit: [5fe0d184e94b5f7b499dfbc9be98497eb58ead6b](https://github.com/w3c/ttml2/commit/5fe0d184e94b5f7b499dfbc9be98497eb58ead6b)
+ Commit: [9d826018d15b052489251e51d6fcf2ad6023f33e](https://github.com/w3c/ttml2/commit/9d826018d15b052489251e51d6fcf2ad6023f33e)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0438-style-cleanup-build/index.html
 
