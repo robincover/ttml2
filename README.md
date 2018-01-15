@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#557](https://github.com/w3c/ttml2/pull/557)
 
 
- Commit: [2792d2268df506c499c74a015362c1a73ef6f9aa](https://github.com/w3c/ttml2/commit/2792d2268df506c499c74a015362c1a73ef6f9aa)
+ Commit: [89b6c1c15ffa54b0d9b26a48bd30861e3f35fbb9](https://github.com/w3c/ttml2/commit/89b6c1c15ffa54b0d9b26a48bd30861e3f35fbb9)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0429-remove-fill-line-gap-build/index.html
 
