@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#563](https://github.com/w3c/ttml2/pull/563)
 
 
- Commit: [dce92edcad7d1d08a105dc166788f17f4526e32f](https://github.com/w3c/ttml2/commit/dce92edcad7d1d08a105dc166788f17f4526e32f)
+ Commit: [4c9c2ea7e8713e405fabf2f9f16555c68b8c0008](https://github.com/w3c/ttml2/commit/4c9c2ea7e8713e405fabf2f9f16555c68b8c0008)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0238-textAlign-inlineBlock-build/index.html
 
