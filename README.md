@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#566](https://github.com/w3c/ttml2/pull/566)
 
 
- Commit: [7cb4d420812987006c39fac19bd535ffb4217c96](https://github.com/w3c/ttml2/commit/7cb4d420812987006c39fac19bd535ffb4217c96)
+ Commit: [ec6ed3ea79cb476735b3ddc6d88507c1a2012e28](https://github.com/w3c/ttml2/commit/ec6ed3ea79cb476735b3ddc6d88507c1a2012e28)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/ga/minor-cleanup-build/index.html
 
