@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#520](https://github.com/w3c/ttml2/pull/520)
 
 
- Commit: [329ce9ac663fb2d4049971d0a16756dce73f347d](https://github.com/w3c/ttml2/commit/329ce9ac663fb2d4049971d0a16756dce73f347d)
+ Commit: [7ceaaa07160db24328cd7f7d8d5d95a687f7c71f](https://github.com/w3c/ttml2/commit/7ceaaa07160db24328cd7f7d8d5d95a687f7c71f)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0459-appendix-s-build/index.html
 
