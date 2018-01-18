@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#564](https://github.com/w3c/ttml2/pull/564)
 
 
- Commit: [e4ba5cc8252c9dbf82eee95b24f711888eda651e](https://github.com/w3c/ttml2/commit/e4ba5cc8252c9dbf82eee95b24f711888eda651e)
+ Commit: [3a5b9fbe2495f36f4fcbf0ea596cb4d7fd31a850](https://github.com/w3c/ttml2/commit/3a5b9fbe2495f36f4fcbf0ea596cb4d7fd31a850)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0403-privacy-origin-build/index.html
 
