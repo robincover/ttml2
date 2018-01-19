@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#570](https://github.com/w3c/ttml2/pull/570)
 
 
- Commit: [ef22fd614a295739d391c43b3c02f5f538f3eedb](https://github.com/w3c/ttml2/commit/ef22fd614a295739d391c43b3c02f5f538f3eedb)
+ Commit: [877910b7808354047d6432bf2ab788e2ec4b222d](https://github.com/w3c/ttml2/commit/877910b7808354047d6432bf2ab788e2ec4b222d)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0552-remove-br-animation-build/index.html
 
