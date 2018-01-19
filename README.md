@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#585](https://github.com/w3c/ttml2/pull/585)
 
 
- Commit: [807c4c85da6f677d0d5e216a7716f2035bb43326](https://github.com/w3c/ttml2/commit/807c4c85da6f677d0d5e216a7716f2035bb43326)
+ Commit: [8f81fdcc2a7ceea57055a048d6dce0c46149e2be](https://github.com/w3c/ttml2/commit/8f81fdcc2a7ceea57055a048d6dce0c46149e2be)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0584-validate-when-building-build/index.html
 
