@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#536](https://github.com/w3c/ttml2/pull/536)
 
 
- Commit: [0017b9bc7cfce5680ea350d224782ff6ab334aff](https://github.com/w3c/ttml2/commit/0017b9bc7cfce5680ea350d224782ff6ab334aff)
+ Commit: [c3344a5cf2e3d92e06ff07767e873dca035b4ba0](https://github.com/w3c/ttml2/commit/c3344a5cf2e3d92e06ff07767e873dca035b4ba0)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0323-remove-media-offset-parameter-build/index.html
 
