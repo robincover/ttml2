@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#581](https://github.com/w3c/ttml2/pull/581)
 
 
- Commit: [609e5617252fbf84bea31806e0d2271c0dcfe289](https://github.com/w3c/ttml2/commit/609e5617252fbf84bea31806e0d2271c0dcfe289)
+ Commit: [d5d0ccc563f3d667b085d93d02548414669f98b7](https://github.com/w3c/ttml2/commit/d5d0ccc563f3d667b085d93d02548414669f98b7)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0567-dfxp-url-build/index.html
 
