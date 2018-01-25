@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#545](https://github.com/w3c/ttml2/pull/545)
 
 
- Commit: [98132724bc88a3aca643d8e7d8dde5067db009b4](https://github.com/w3c/ttml2/commit/98132724bc88a3aca643d8e7d8dde5067db009b4)
+ Commit: [507bd2f089db342034989546b1992ce07979a34d](https://github.com/w3c/ttml2/commit/507bd2f089db342034989546b1992ce07979a34d)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0539-dar-from-sar-build/index.html
 
