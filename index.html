@@ -338,7 +338,7 @@ background-color: #ffff33;
 border: 2px solid black;
 width: 100%;
 }
-    </style><link rel="stylesheet" type="text/css" href="https://www.w3.org/StyleSheets/TR/2016/W3C-ED"></head><body>Commit: beca71e Merge 833f65fe610b9ff78e7c53371160a8361fab5d4f into 7180e9eefd960fcb3ed1659b4e50b4db687a96b4<div id="revisions"></div><div class="head">
+    </style><link rel="stylesheet" type="text/css" href="https://www.w3.org/StyleSheets/TR/2016/W3C-ED"></head><body>Commit: bc89a3c Merge a62e4e5a7b78e0ec37f5a144864f0c6022958d04 into 7180e9eefd960fcb3ed1659b4e50b4db687a96b4<div id="revisions"></div><div class="head">
 <h1><a id="title"></a>Timed Text Markup Language 2 (TTML2)</h1>
 <h2><a id="w3c-doctype"></a>W3C Editors' Draft 25 January 2018</h2><dl><dt>This version:</dt><dd>
 <a href="ttml2.html">ttml2.html</a>
@@ -911,7 +911,7 @@ which corresponds to production [3] <code>S</code> as defined by <a href="#xml10
       addition, a collection may be specified as a difference of collections, such as <code>{char-{specials}}</code>,
       which denotes all XML characters minus a collection of <em>special</em> characters.</p></li></ul></li><li><p>the Kleene operators <code>?</code>, <code>*</code>, and <code>+</code> respectively express zero or one,
   zero or more, and one or more of the preceding term;</p></li><li><p>operator precedence (from highest to lowest) is as follows, all of which have left to right associativity</p><ol class="enumar"><li><p>grouping</p></li><li><p>concatenation (juxtaposition)</p></li><li><p><code>&amp;&amp;</code></p></li><li><p><code>||</code></p></li><li><p><code>|</code></p></li></ol></li></ul><p>Except for linear whitespace that is required to appear between expressions that satisfy the <code>||</code> or <code>&amp;&amp;</code>
-value syntax, no whitespace is permitted unless explicitly marked in a syntax definition by the appearance of a
+value syntax, no whitespace is permitted unless explicitly marked in a value syntax definition by the appearance of a
 <a href="#style-value-lwsp">&lt;lwsp&gt;</a> non-terminal.</p><p>Unless stated to the contrary, the terms <em>horizontal</em> and <em>vertical</em> are interpreted in an absolute sense, not relative to writing mode, while
 <em>width</em> refers to a dimension along the <em>horizontal</em> axis and
 <em>height</em> refers to a dimension along the <em>vertical</em> axis. All exceptions are explicitly noted in the text.</p><p>All content of this specification that is not explicitly marked as
@@ -2320,12 +2320,12 @@ when specified on the <code>tt</code> element.</p></div><div class="div3">
 <h4><a id="parameter-attribute-displayAspectRatio"></a>7.2.4 ttp:displayAspectRatio</h4><p>The <code>ttp:displayAspectRatio</code> attribute is used to specify the <a href="#terms-display-aspect-ratio">display aspect ratio</a> of the <a href="#terms-root-container-region">root container region</a> as elaborated in <a href="#root-container-region-semantics"><b>H Root Container Region Semantics</b></a>.</p><p>If specified, the value of this attribute must adhere to the following syntax:</p><a id="parameter-attribute-displayAspectRatio-syntax"></a><table class="syntax"><caption>Syntax Representation – ttp:displayAspectRatio</caption><tbody><tr><td>
 <div class="exampleInner"><pre>
 ttp:displayAspectRatio
-  : numerator <a href="#style-value-lwsp">&lt;lwsp&gt;</a> demoninator            // <em>numerator</em> != 0; <em>demoninator</em> != 0
+  : numerator <a href="#style-value-lwsp">&lt;lwsp&gt;</a> denominator            // <em>numerator</em> != 0; <em>denominator</em> != 0
 
-numerator | demoninator
+numerator | denominator
   : <a href="#style-value-digit">&lt;digit&gt;</a>+
 </pre></div>
-</td></tr></tbody></table><p>If specified, then both numerator and demoninator must be non-zero. If not specified, then the display aspect ratio of
+</td></tr></tbody></table><p>If specified, then both numerator and denominator must be non-zero. If not specified, then the display aspect ratio of
 the <a href="#terms-root-container-region">root container region</a> is determined by <a href="#root-container-region-semantics"><b>H Root Container Region Semantics</b></a>.</p><p>A <code>ttp:displayAspectRatio</code> attribute is considered to be significant only
 when specified on the <code>tt</code> element.</p></div><div class="div3">
 <h4><a id="parameter-attribute-dropMode"></a>7.2.5 ttp:dropMode</h4><p>The <code>ttp:dropMode</code> attribute is used to specify
@@ -2505,12 +2505,12 @@ and <code>10:00:01:00</code>.
 <h4><a id="parameter-attribute-pixelAspectRatio"></a>7.2.9 ttp:pixelAspectRatio</h4><p>The <code>ttp:pixelAspectRatio</code> attribute is used to specify the <a href="#terms-pixel-aspect-ratio">pixel aspect ratio</a> of the <a href="#terms-root-container-region">root container region</a> as elaborated in <a href="#root-container-region-semantics"><b>H Root Container Region Semantics</b></a>.</p><p>If specified, the value of this attribute must adhere to the following syntax:</p><a id="parameter-attribute-pixelAspectRatio-syntax"></a><table class="syntax"><caption>Syntax Representation – ttp:pixelAspectRatio</caption><tbody><tr><td>
 <div class="exampleInner"><pre>
 ttp:pixelAspectRatio
-  : numerator <a href="#style-value-lwsp">&lt;lwsp&gt;</a> demoninator            // <em>numerator</em> != 0; <em>demoninator</em> != 0
+  : numerator <a href="#style-value-lwsp">&lt;lwsp&gt;</a> denominator            // <em>numerator</em> != 0; <em>denominator</em> != 0
 
-numerator | demoninator
+numerator | denominator
   : <a href="#style-value-digit">&lt;digit&gt;</a>+
 </pre></div>
-</td></tr></tbody></table><p>If specified, then both numerator and demoninator must be non-zero. If not specified, then the pixel aspect ratio of
+</td></tr></tbody></table><p>If specified, then both numerator and denominator must be non-zero. If not specified, then the pixel aspect ratio of
 the <a href="#terms-root-container-region">root container region</a> is determined by <a href="#root-container-region-semantics"><b>H Root Container Region Semantics</b></a>.</p><p>A <code>ttp:pixelAspectRatio</code> attribute is considered to be significant only
 when specified on the <code>tt</code> element.</p></div><div class="div3">
 <h4><a id="parameter-attribute-subFrameRate"></a>7.2.10 ttp:subFrameRate</h4><p>The <code>ttp:subFrameRate</code> attribute is used to specify the sub-frame rate of a related
