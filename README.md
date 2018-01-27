@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#588](https://github.com/w3c/ttml2/pull/588)
 
 
- Commit: [c1491495c899c53f331a927e3cbfd78f76e1281d](https://github.com/w3c/ttml2/commit/c1491495c899c53f331a927e3cbfd78f76e1281d)
+ Commit: [6ecae8a54fe9f0e9ceb16fbcab3ba36a4574e615](https://github.com/w3c/ttml2/commit/6ecae8a54fe9f0e9ceb16fbcab3ba36a4574e615)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0315-lwsp-rules-build/index.html
 
