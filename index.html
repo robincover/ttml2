@@ -338,7 +338,7 @@ background-color: #ffff33;
 border: 2px solid black;
 width: 100%;
 }
-    </style><link rel="stylesheet" type="text/css" href="https://www.w3.org/StyleSheets/TR/2016/W3C-ED"></head><body>Commit: 9137634 Merge 441f105026a1b215af9f9eb3d1e206e6b4d3590b into 8086ef0996d041ecd27e316eededf785c021f3c2<div id="revisions"></div><div class="head">
+    </style><link rel="stylesheet" type="text/css" href="https://www.w3.org/StyleSheets/TR/2016/W3C-ED"></head><body>Commit: 23dc346 Merge c1491495c899c53f331a927e3cbfd78f76e1281d into 8086ef0996d041ecd27e316eededf785c021f3c2<div id="revisions"></div><div class="head">
 <h1><a id="title"></a>Timed Text Markup Language 2 (TTML2)</h1>
 <h2><a id="w3c-doctype"></a>W3C Editors' Draft 27 January 2018</h2><dl><dt>This version:</dt><dd>
 <a href="ttml2.html">ttml2.html</a>
@@ -909,7 +909,7 @@ own illustration.</p><p>The term linear white-space (LWSP) is to be interpreted 
 SPACE (U+0020), TAB (U+0009), CARRIAGE RETURN (U+000D), or LINE FEED (U+000A),
 which corresponds to production [3] <code>S</code> as defined by <a href="#xml10">[XML 1.0]</a>.</p><p>The following conventions are used in the specification of value syntax expressions:</p><ul><li><p>a literal term (specified within quotation marks), when present, must appear exactly  as specified
   (excluding the quotation marks themselves);</p></li><li><p>concatenated (juxtaposed) terms mean that all terms must appear in the stated order, e.g., <code>a b</code> means that the terms
-  <code>a</code> and <code>b</code> are present and the former precedes the latter;</p></li><li><p>a vertical bar (<code>|</code>) separates two or more alternatives, of which exactly one must appear;</p></li><li><p>a double vertical bar (<code>||</code>) separates two or more options, of which one or more must appear in any order,
+  <code>a</code> and <code>b</code> are present and the former precedes the latter;</p></li><li><p>a vertical bar (<code>|</code>) separates two or more alternatives, of which exactly one must appear;</p></li><li><p>a double vertical bar (<code>||</code>) separates two or more options, of which one or more must appear in any order without duplication,
   separated by <a href="#style-value-lwsp">&lt;lwsp&gt;</a>;</p></li><li><p>open and close parenthesis (<code>()</code>) are used for grouping and resolving operator precedence;</p></li><li><p>open and close square brackets (<code>[]</code>) are used to express character classes;</p></li><li><p>open and close curly braces (<code>{}</code>) are used in two ways, where the context is generally sufficient to determine which
   applies (and, if not, then the surrounding prose will make clear which applies):</p><ul><li><p>to express a repetition count or range, which takes one of the following forms:</p><ul><li><p><code>{</code><em><code>count</code></em><code>}</code></p></li><li><p><code>{</code><em><code>minimum</code></em><code>,</code><em><code>maximum</code></em><code>}</code></p></li></ul></li><li><p>to express a collection of characters, one of which must appear; in
       addition, a collection may be specified as a difference of collections, such as <code>{char-{specials}}</code>,
