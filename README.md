@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#597](https://github.com/w3c/ttml2/pull/597)
 
 
- Commit: [310b9f219ed7a6177c96f79e320e698131f89df2](https://github.com/w3c/ttml2/commit/310b9f219ed7a6177c96f79e320e698131f89df2)
+ Commit: [c20c8e4fc93cbc6e22644913efac7042361645c1](https://github.com/w3c/ttml2/commit/c20c8e4fc93cbc6e22644913efac7042361645c1)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0544-remove-format-attribute-build/index.html
 
