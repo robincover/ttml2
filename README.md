@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#565](https://github.com/w3c/ttml2/pull/565)
 
 
- Commit: [3a908e566ea3895c6dbf6e36ee93987ffef2e349](https://github.com/w3c/ttml2/commit/3a908e566ea3895c6dbf6e36ee93987ffef2e349)
+ Commit: [01357e224ec2591262750d4b07131ded273a0b61](https://github.com/w3c/ttml2/commit/01357e224ec2591262750d4b07131ded273a0b61)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0364-require-dfxp-profiles-build/index.html
 
