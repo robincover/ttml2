@@ -16,7 +16,7 @@ This branch was automatically built by Travis CI. <b>DO NOT EDIT</b>.
  Pull request: [#617](https://github.com/w3c/ttml2/pull/617)
 
 
- Commit: [a4cdc3ce968752f1eea295c677387452d1c18097](https://github.com/w3c/ttml2/commit/a4cdc3ce968752f1eea295c677387452d1c18097)
+ Commit: [61f5554f08f44e1c576533d3d70556ea1bbe58d2](https://github.com/w3c/ttml2/commit/61f5554f08f44e1c576533d3d70556ea1bbe58d2)
 
 Pull request specification can be previewed at https://rawgit.com/w3c/ttml2/issue-0255-ruby-inline-build/index.html
 

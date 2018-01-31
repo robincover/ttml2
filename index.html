@@ -338,7 +338,7 @@ background-color: #ffff33;
 border: 2px solid black;
 width: 100%;
 }
-    </style><link rel="stylesheet" type="text/css" href="https://www.w3.org/StyleSheets/TR/2016/W3C-ED"></head><body>Commit: dbd9665 Merge a4cdc3ce968752f1eea295c677387452d1c18097 into 7d90f55f221d0c3403ee15589bff9555f6a8d37c<div id="revisions"></div><div class="head">
+    </style><link rel="stylesheet" type="text/css" href="https://www.w3.org/StyleSheets/TR/2016/W3C-ED"></head><body>Commit: 52d4ee5 Merge 61f5554f08f44e1c576533d3d70556ea1bbe58d2 into 7d90f55f221d0c3403ee15589bff9555f6a8d37c<div id="revisions"></div><div class="head">
 <h1><a id="title"></a>Timed Text Markup Language 2 (TTML2)</h1>
 <h2><a id="w3c-doctype"></a>W3C Editors' Draft 31 January 2018</h2><dl><dt>This version:</dt><dd>
 <a href="ttml2.html">ttml2.html</a>
@@ -5336,7 +5336,9 @@ computed value of <code>tts:ruby</code> of its parent element is either <code>co
 computed value of <code>tts:ruby</code> of its preceding sibling is <code>base</code> or
 <code>text</code>;</p></li><li><p>if the computed value of <code>tts:ruby</code> is <code>delimiter</code>, then the
 computed value of <code>tts:ruby</code> of exactly one sibling is <code>delimiter</code>;</p></li><li><p>if the computed value of <code>tts:ruby</code> is <code>delimiter</code>, then the
-computed value of <code>tts:ruby</code> of no descendant element is not <code>none</code>;</p></li></ul><p>A validating processor must treat a violation of any of the above constraints as an error.</p><div class="note"><p class="prefix"><b>Note:</b></p><p>The above listed constraints are intended to be interpreted as specifying the following nesting model:</p><div class="exampleInner"><pre>
+computed value of <code>tts:ruby</code> of no descendant element is not <code>none</code>;</p></li></ul><p>A validating processor must treat a violation of any of the above constraints as an error.
+For the purpose of presentation processing, the violation of any of these constraints should result in fallback (inline)    
+presentation of ruby text annotations.</p><div class="note"><p class="prefix"><b>Note:</b></p><p>The above listed constraints are intended to be interpreted as specifying the following nesting model:</p><div class="exampleInner"><pre>
 container
   : base text
   | base delimiter text delimiter
