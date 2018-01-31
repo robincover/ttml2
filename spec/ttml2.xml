@@ -3109,7 +3109,7 @@ Content
 Data
 </td>
 <td>
-<loc href="#embedded-content-vocabulary-data">chunk</loc>,
+<loc href="#embedded-content-vocabulary-chunk">chunk</loc>,
 <loc href="#embedded-content-vocabulary-data">data</loc>,
 <loc href="#embedded-content-vocabulary-resources">resources</loc>,
 <loc href="#embedded-content-vocabulary-source">source</loc>
@@ -24945,6 +24945,14 @@ element.</p>
 <td>12</td>
 </tr>
 <tr>
+<td><loc href="#embedded-content-vocabulary-audio"><code>tt:audio</code></loc></td>
+<td><code>audio</code></td>
+<td><bibref ref="html52"/></td>
+<td>-@autoplay, @controls, @crossorigin, @loop, @muted, @preload; +@animate, @begin, @clipBegin, @clipEnd,
+@condition, @dur, @end, @format, @style, @timeContainer, @type, @tta:*, @tts:*, @ttm:*, @xml:space</td>
+<td>3</td>
+</tr>
+<tr>
 <td><loc href="#document-structure-vocabulary-body"><code>tt:body</code></loc></td>
 <td><code>xhtml:body</code></td>
 <td><bibref ref="xhtml10"/></td>
@@ -24965,6 +24973,20 @@ content vocabulary</td>
 <td>1,2</td>
 </tr>
 <tr>
+<td><loc href="#embedded-content-vocabulary-chunk"><code>tt:chunk</code></loc></td>
+<td><code></code></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><loc href="#embedded-content-vocabulary-data"><code>tt:data</code></loc></td>
+<td><code></code></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
 <td><loc href="#content-vocabulary-div"><code>tt:div</code></loc></td>
 <td><code>xhtml:div</code></td>
 <td><bibref ref="xhtml10"/></td>
@@ -24975,6 +24997,13 @@ optional metadata and animation children</td>
 <td>1,2,3</td>
 </tr>
 <tr>
+<td><loc href="#embedded-content-vocabulary-font"><code>tt:font</code></loc></td>
+<td><code></code></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
 <td><loc href="#document-structure-vocabulary-head"><code>tt:head</code></loc></td>
 <td><code>xhtml:head</code></td>
 <td><bibref ref="xhtml10"/></td>
@@ -24982,6 +25011,13 @@ optional metadata and animation children</td>
 optional metadata children, followed by optional styling child,
 followed by optional layout child</td>
 <td>1,3</td>
+</tr>
+<tr>
+<td><loc href="#embedded-content-vocabulary-image"><code>tt:image</code></loc></td>
+<td><code></code></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td><loc href="#layout-vocabulary-layout"><code>tt:layout</code></loc></td>
@@ -25016,11 +25052,25 @@ metadata and animation children</td>
 <td>4</td>
 </tr>
 <tr>
+<td><loc href="#embedded-content-vocabulary-resources"><code>tt:resources</code></loc></td>
+<td><code></code></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
 <td><loc href="#animation-vocabulary-set"><code>tt:set</code></loc></td>
 <td><code>svg:set</code></td>
 <td><bibref ref="svg11"/></td>
 <td>-@* except begin, dur, end; +@tts:*, +@xml:lang, +@xml:space</td>
 <td>3,6</td>
+</tr>
+<tr>
+<td><loc href="#embedded-content-vocabulary-source"><code>tt:source</code></loc></td>
+<td><code>source</code></td>
+<td><bibref ref="html52"/></td>
+<td>-@media, @srcset, @sizes; +@condition, @format, @xml:space</td>
+<td>3</td>
 </tr>
 <tr>
 <td><loc href="#content-vocabulary-span"><code>tt:span</code></loc></td>
@@ -25084,6 +25134,13 @@ permitting body and/or head to be optional</td>
 <td><bibref ref="svg11"/></td>
 <td>-@class, -@style, -@xml:base</td>
 <td>2,5,9</td>
+</tr>
+<tr>
+<td><loc href="#metadata-vocabulary-item"><code>ttm:item</code></loc></td>
+<td><code></code></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td><loc href="#metadata-vocabulary-name"><code>ttm:name</code></loc></td>
